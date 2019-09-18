@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>家长注册</title>
+	</head>
+	<body bgcolor="aquamarine">
+		<h1 align="middle">爱课程</h1>
+		<hr />
+		<div class="password-con registered">
+			<form action="parent_regist.php" method="post">
+				<div class="psw">
+					<p class="psw-p1">用户名</p>
+					<input type="text" required="required" name="username" placeholder="建议为手机号或邮箱" />
+					<span class="dui"></span>
+				</div>
+				<div class="psw">
+					<p class="psw-p1">输入密码</p>
+					<input type="password" required="required" name="password" placeholder="请输入密码" />
+					<span class="cuo">密码由字母、数字、符号组成</span>
+				</div>
+				<div class="psw">
+					<p class="psw-p1">确认密码</p>
+					<input type="password" required="required" name="repassword" placeholder="请再次输入密码" />
+					<span class="cuo"></span>
+				</div>
+				<div class="psw">
+					<p class="psw-p1">孩子姓名</p>
+					<input type="text" required="required" name="children_name" placeholder="真实名字" />
+					<span class="dui"></span>
+				</div>
+				<div class="psw">
+					<p class="psw-p1">孩子年龄</p>
+					<input type="date" required="required" name="children_age" placeholder="输入数字" />
+					<span class="dui"></span>
+				</div>
+				<div class="psw">
+					<p class="psw-p1">孩子性别</p>
+					<input type="text" required="required" name="children_sex" placeholder="请输入数字：0.男\1.女" />
+					<span class="dui"></span>
+				</div>
+				<div class="psw">
+					<p class="psw-p1">家长姓名</p>
+					<input type="text" required="required" name="parent_name" placeholder="真实姓名" />
+					<span class="dui"></span>
+				</div>
+				<div class="psw psw2">
+					<p class="psw-p1">手机号</p>
+					<input type="text" required="required" name="telephone" placeholder="请输入手机号" />
+				</div>
+				<div class="psw psw2">
+					<p class="psw-p1">邮箱</p>
+					<input type="email" required="required" name="email" placeholder="请输入邮箱" />
+				</div>
+				<div class="agreement">
+					<p>
+						我有阅读并同意
+						<span>《爱课程教育网站服务协议》</span>
+					</p>
+					<input type="checkbox" required="required" name="hobby" />
+				</div>
+				<button type="submit" value="注册" class="psw-btn">立即注册</button>
+				<p class="sign-in">
+					已有账号？请
+					<a href="../login.html">登录</a>
+				</p>
+				<p class="sign-in">
+					放弃注册？
+					<a href="../login.html">放弃注册</a>
+				</p>
+			</form>
+		</div><!-- 注册框结束 -->
+	</body>
+</html>

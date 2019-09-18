@@ -1,0 +1,19 @@
+<?php
+date_default_timezone_set("Asia/Shanghai");
+ $mysql=[
+	 'hostname'=>'localhost',
+	 'username'=>'root',
+	 'passwd'=>'971016',
+	 'database'=>'tutoring_intermediary',
+	 'charset'=>'utf8'
+ ];
+$zhifubao=[
+	'username'=>'xiipfw8897@sandbox.com',
+	'password'=>'111111'
+];
+$web='Course';
+$definition=[
+	'male'=>0,
+	'female'=>1
+]
+?>
